@@ -39,12 +39,12 @@
 	
 	<link rel="canonical" href="https://projetoalfobre.github.io/a-hgispicks/">
 	
-	<meta property="og:title" content="A-GISpicks - A curated list of useful websites for HGIS projects" />
+	<meta property="og:title" content="A-HGISpicks - A curated list of useful websites for HGIS projects" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://projetoalfobre.github.io/a-hgispicks/" />
 	<meta property="og:description" content="Curated list of useful websites for HGIS projects" />
 	<meta property="og:locale" content="en_US" />
-	<meta property="og:site_name" content="A-GISpicks - A curated list of useful websites for HGIS projects" />
+	<meta property="og:site_name" content="A-HGISpicks - A curated list of useful websites for HGIS projects" />
 	<meta property="og:image" content="ogp.jpg" />
 	<meta property="og:image:type" content="image/jpeg" />
 	<meta property="og:image:width" content="1200" />
@@ -70,7 +70,7 @@
 <!-- partial:index.partial.html -->
 <div class="container mt-3">
   <h1 class="mb-3" style="font-weight: 900;">A-HGISpicks</h1>
-  <h4 style="font-weight: lighter;">A curated list of useful websites for HGIS projects</h4>
+  <h4 style="font-weight: lighter;">A curated list of useful websites for HGIS (Historical GIS) projects</h4>
 
   <div class="row">
     <div class="col">
@@ -85,26 +85,45 @@
         </label>
           <label class="btn btn-outline-primary"><input type="radio" name="shuffle-filter" value="portugal">Portugal</label>
           <label class="btn btn-outline-primary"><input type="radio" name="shuffle-filter" value="europe">Europe</label>
-          <label class="btn btn-outline-primary"><input type="radio" name="shuffle-filter" value="world">World</label>          
-          <label class="btn btn-outline-primary"><input type="radio" name="shuffle-filter" value="catalog">Catalog</label>
-          <label class="btn btn-outline-primary"><input type="radio" name="shuffle-filter" value="borders">Borders</label>
+          <label class="btn btn-outline-primary"><input type="radio" name="shuffle-filter" value="world">World</label>
+          <label class="btn btn-outline-primary"><input type="radio" name="shuffle-filter" value="prehistory">Prehistory</label>
+          <label class="btn btn-outline-primary"><input type="radio" name="shuffle-filter" value="medieval">Medieval</label>
+          <label class="btn btn-outline-primary"><input type="radio" name="shuffle-filter" value="contemporary">Contemporary</label>
           <label class="btn btn-outline-primary"><input type="radio" name="shuffle-filter" value="archaeology">Archaeology</label>
-          <label class="btn btn-outline-primary"><input type="radio" name="shuffle-filter" value="elevation">Elevation</label>          
-          <label class="btn btn-outline-primary"><input type="radio" name="shuffle-filter" value="osm">OpenStreetMap</label>
-          <label class="btn btn-outline-primary"><input type="radio" name="shuffle-filter" value="toponymy">Toponymy</label>
           <label class="btn btn-outline-primary"><input type="radio" name="shuffle-filter" value="data">Data</label> 
-          <label class="btn btn-outline-primary"><input type="radio" name="shuffle-filter" value="service">Service</label>  
+          <label class="btn btn-outline-primary"><input type="radio" name="shuffle-filter" value="example">Examples</label>  
+          <label class="btn btn-outline-primary"><input type="radio" name="shuffle-filter" value="readings">Readings</label>
       </div>
     </div>
   </div>
   <div class="row my-shuffle">
 
-    <figure class="image-item col-6" data-groups='["world","catalog","data"]'>
+    <figure class="image-item col-6" data-groups='["world","example"]'>
       <div class="card">
         <div class="card-body">
-          <h4 class="card-title"><a href="https://data.worldbank.org/" target="_blank" >World Bank Open Data</a></h4>
-          <span class="badge badge-info">World</span> <span class="badge badge-info">Catalog</span> <span class="badge badge-info">Data</span>
-          <p>Provides a listing of available World Bank datasets, including databases, pre-formatted tables, reports, and other resources.</p>          
+          <h4 class="card-title"><a href="https://www.openhistoricalmap.org/" target="_blank" >OpenHistoricalMap </a></h4>
+          <span class="badge badge-info">World</span> <span class="badge badge-info">Example</span>
+          <p>Online platform of the Institute for Medieval Studies (NOVA FCSH) for publishing, managing, and sharing geospatial and cartographic data related to the Middle Ages.</p>
+        </div>
+      </div>
+    </figure>
+
+    <figure class="image-item col-6" data-groups='["world","data"]'>
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title"><a href="https://overpass-turbo.openhistoricalmap.org/" target="_blank" >overpass turbo - OpenHistoricalMap</a></h4>
+          <span class="badge badge-info">World</span> <span class="badge badge-info">Data</span>
+          <p>Online platform of the Institute for Medieval Studies (NOVA FCSH) for publishing, managing, and sharing geospatial and cartographic data related to the Middle Ages.</p>
+        </div>
+      </div>
+    </figure>
+
+    <figure class="image-item col-6" data-groups='["portugal","medieval","archaeology","data"]'>
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title"><a href="https://freegisdata.rtwilson.com/" target="_blank" >IEM GeoPortal</a></h4>
+          <span class="badge badge-info">Portugal</span> <span class="badge badge-info">Medieval</span> <span class="badge badge-info">Archaeology</span> <span class="badge badge-info">Data</span>
+          <p>Online platform of the Institute for Medieval Studies (NOVA FCSH) for publishing, managing, and sharing geospatial and cartographic data related to the Middle Ages.</p>
         </div>
       </div>
     </figure>
@@ -116,18 +135,6 @@
           <span class="badge badge-info">World</span> <span class="badge badge-info">Catalog</span> <span class="badge badge-info">Data</span>
           <p>Categorised list of links to over 500 sites providing freely available geographic datasets.</p>
         </div>
-
-      </div>
-    </figure>
-
-    <figure class="image-item col-6" data-groups='["europe","catalog","data"]'>
-      <div class="card">
-        <div class="card-body">
-          <h4 class="card-title"><a href="https://data.europa.eu/pt" target="_blank" >data.europa.eu</a></h4>
-          <span class="badge badge-info">Europe</span> <span class="badge badge-info">Catalog</span> <span class="badge badge-info">Data</span>
-          <p >The single point of access to open data from European countries, EU institutions, agencies and bodies and other European countries.</p>
-        </div>
- 
       </div>
     </figure>
 
@@ -141,42 +148,22 @@
       </div>
     </figure>
 
-    <figure class="image-item col-6" data-groups='["borders","osm","service"]'>
+    <figure class="image-item col-6" data-groups='["borders","world","service"]'>
       <div class="card">
         <div class="card-body">
           <h4 class="card-title"><a href="https://osm-boundaries.com/" target="_blank" >OSM-Boundaries</a></h4>
-          <span class="badge badge-info">World</span> <span class="badge badge-info">Borders</span> <span class="badge badge-info">OSM</span> <span class="badge badge-info">Service</span>
+          <span class="badge badge-info">World</span> <span class="badge badge-info">Borders</span> <span class="badge badge-info">World</span> <span class="badge badge-info">Service</span>
           <p>Easily extract boundaries such as country borders, state borders, and equivalents from the OpenStreetMap databases.</p>
         </div>
       </div>
     </figure>
 
-    <figure class="image-item col-6" data-groups='["world","osm","service"]'>
+    <figure class="image-item col-6" data-groups='["world","data","service"]'>
       <div class="card">
         <div class="card-body">
 		      <h4 class="card-title"><a href="https://overpass-turbo.eu/" target="_blank" >overpass turbo</a></h4>
-          <span class="badge badge-info">World</span> <span class="badge badge-info">OSM</span> <span class="badge badge-info">Service</span>
+          <span class="badge badge-info">World</span> <span class="badge badge-info">Data</span> <span class="badge badge-info">Service</span>
           <p>A web-based data filtering or data mining tool for OpenStreetMap.</p>
-        </div>
-      </div>
-    </figure>
-
-    <figure class="image-item col-6" data-groups='["world","osm","service"]'>
-      <div class="card">
-        <div class="card-body">
-		      <h4 class="card-title"><a href="https://print.get-map.org/" target="_blank" >MyOSMatic</a></h4>
-          <span class="badge badge-info">World</span> <span class="badge badge-info">OSM</span> <span class="badge badge-info">Service</span>
-          <p>Generates maps using OpenStreetMap data. The generated maps are available in PNG, PDF and SVG formats and are ready to be printed.</p>
-        </div>
-      </div>
-    </figure>
-
-    <figure class="image-item col-6" data-groups='["world","osm","data"]'>
-      <div class="card">
-        <div class="card-body">
-          <h4 class="card-title"><a href="http://download.geofabrik.de/" target="_blank" >Geofabrik</a></h4>
-          <span class="badge badge-info">World</span> <span class="badge badge-info">OSM</span> <span class="badge badge-info">Data</span>
-          <p>This server has data extracts from the OpenStreetMap project which are normally updated every day.</p>
         </div>
       </div>
     </figure>
@@ -211,7 +198,7 @@
       </div>
     </figure>
 
-    <figure class="image-item col-6" data-groups='["portugal","elevation","data"]'>
+    <figure class="image-item col-6" data-groups='["portugal","data"]'>
       <div class="card">
         <div class="card-body">
           <h4 class="card-title"><a href="https://www.fc.up.pt/pessoas/jagoncal/dems/" target="_blank" >DEM data for Portugal</a></h4>
@@ -221,7 +208,7 @@
       </div>
     </figure>
 
-    <figure class="image-item col-6" data-groups='["portugal","elevation","data"]'>
+    <figure class="image-item col-6" data-groups='["portugal", "data"]'>
       <div class="card">
         <div class="card-body">
           <h4 class="card-title"><a href="https://blog.viasig.com/2021/11/altimetria-portugal-25m/" target="_blank" >Altimetria Portugal 25m</a></h4>
@@ -231,26 +218,6 @@
       </div>
     </figure>
     
-    <figure class="image-item col-6" data-groups='["world","catalog","data"]'>
-      <div class="card">
-        <div class="card-body">
-          <h4 class="card-title"><a href="https://www.cia.gov/the-world-factbook/" target="_blank" >CIA’s World Factbook</a></h4>
-          <span class="badge badge-info">World</span> <span class="badge badge-info">Data</span> <span class="badge badge-info">Catalog</span>
-          <p>Basic intelligence (e.g. history, government, economy, geography, transportation, military, etc.) for 265 world entities.</p>
-        </div>
-      </div>
-    </figure>
-
-    <figure class="image-item col-6" data-groups='["portugal","toponymy","data"]'>
-      <div class="card">
-        <div class="card-body">
-          <h4 class="card-title"><a href="https://www.ine.pt/scripts/hvd/en/geo.html" target="_blank" >INE Geodata</a></h4>
-          <span class="badge badge-info">Portugal</span> <span class="badge badge-info">Toponymy</span> <span class="badge badge-info">Data</span>
-          <p>Geospatial data shared by the portuguese National Statistics Institute: Addresses, Reference Parcels, Toponymy.</p>
-        </div>
-      </div>
-    </figure>
-
     <figure class="image-item col-6" data-groups='["world","data", "catalog"]'>
       <div class="card">
         <div class="card-body">
@@ -267,76 +234,6 @@
           <h4 class="card-title"><a href="https://snig.dgterritorio.gov.pt/rndg/srv/por/catalog.search#/metadata/198497815bf647ecaa990c34c42e932e" target="_blank" >CAOP</a></h4>
           <span class="badge badge-info">Portugal</span> <span class="badge badge-info">Borders</span> <span class="badge badge-info">Data</span>
           <p>The Official Administrative Charter of Portugal (Carta Administrativa Oficial de Portugal).</p>
-        </div>
-      </div>
-    </figure>  
-
-    <figure class="image-item col-6" data-groups='["portugal","catalog","data"]'>
-      <div class="card">
-        <div class="card-body">
-          <h4 class="card-title"><a href="https://www.naturalgis.pt/geocatalogo.html" target="_blank" >NaturalGIS Geocatalog</a></h4>
-          <span class="badge badge-info">Portugal</span> <span class="badge badge-info">Catalog</span> <span class="badge badge-info">Data</span>
-          <p>Portuguese geodata catalog provided by NaturalGIS company.</p>
-        </div>
-      </div>
-    </figure>  
-
-    <figure class="image-item col-6" data-groups='["osm","world","data"]'>
-      <div class="card">
-        <div class="card-body">
-          <h4 class="card-title"><a href="https://daylightmap.org/" target="_blank" >Daylight</a></h4>
-          <span class="badge badge-info">OSM</span> <span class="badge badge-info">World</span> <span class="badge badge-info">Data</span>
-          <p>A complete distribution of global, open map data that’s freely available with support from community and professional mapmakers.</p>
-        </div>
-      </div>
-    </figure>  
-
-    <figure class="image-item col-6" data-groups='["catalog", "data","portugal"]'>
-      <div class="card">
-        <div class="card-body">
-		      <h4 class="card-title"><a href="https://dados.gov.pt" target="_blank" >dados.gov.pt</a></h4>
-          <span class="badge badge-info">Portugal</span> <span class="badge badge-info">Catalog</span> <span class="badge badge-info">Data</span>
-          <p>The central catalog of open data in Portugal, aggregates and hosts open data from Public Administration.</p>
-        </div>
-      </div>
-    </figure>
-
-    <figure class="image-item col-6" data-groups='["catalog", "data","portugal"]'>
-      <div class="card">
-        <div class="card-body">
-		      <h4 class="card-title"><a href="https://snig.dgterritorio.gov.pt/rndg/srv/por/catalog.search#/home" target="_blank" >RNDG</a></h4>
-          <span class="badge badge-info">Portugal</span> <span class="badge badge-info">Catalog</span> <span class="badge badge-info">Data</span>
-          <p>The portuguese National Geographic Data Registry is a catalog of geodata produced or maintained by portuguese public authorities.</p>
-        </div>
-      </div>
-    </figure>
- 
-    <figure class="image-item col-6" data-groups='["osm","world","data"]'>
-      <div class="card">
-        <div class="card-body">
-          <h4 class="card-title"><a href="https://osmdata.openstreetmap.de/" target="_blank" >OSM Data</a></h4>
-          <span class="badge badge-info">OSM</span> <span class="badge badge-info">World</span> <span class="badge badge-info">Data</span>
-          <p>Data Derived from OpenStreetMap for Download. Raw OpenStreetMap data is hard to use. On this web site you'll find some of that data pre-processed and formatted for easier use.</p>
-        </div>
-      </div>
-    </figure>  
-
-    <figure class="image-item col-6" data-groups='["data","world","catalog"]'>
-      <div class="card">
-        <div class="card-body">
-          <h4 class="card-title"><a href="https://www.kaggle.com/datasets/" target="_blank" >Kaggle Datasets</a></h4>
-          <span class="badge badge-info">Data</span> <span class="badge badge-info">World</span> <span class="badge badge-info">Catalog</span>
-          <p>A searchable collection of datasets maintained by its community.</p>
-        </div>
-      </div>
-    </figure>
-
-    <figure class="image-item col-6" data-groups='["data","world","service"]'>
-      <div class="card">
-        <div class="card-body">
-          <h4 class="card-title"><a href="https://datasetsearch.research.google.com/" target="_blank" >Dataset Search</a></h4>
-          <span class="badge badge-info">Data</span> <span class="badge badge-info">World</span> <span class="badge badge-info">Service</span>
-          <p> Dataset Search is a search engine for datasets. </p>
         </div>
       </div>
     </figure>  
@@ -383,16 +280,6 @@
       </div>
     </figure> 	  
 
-    <figure class="image-item col-6" data-groups='["catalog","world","data"]'>
-      <div class="card">
-        <div class="card-body">
-          <h4 class="card-title"><a href="https://qms.nextgis.com/" target="_blank" >QMS</a></h4>
-          <span class="badge badge-info">Catalog</span> <span class="badge badge-info">World</span> <span class="badge badge-info">Data</span>
-          <p>QuickMapServices (QMS) is an open catalog of geospatial services and a way to add them easily to desktop GIS software.</p>
-        </div>
-      </div>
-    </figure>  
-    
     <figure class="image-item col-6" data-groups='["service","world","osm"]'>
       <div class="card">
         <div class="card-body">
@@ -403,36 +290,6 @@
       </div>
     </figure>  
     
-    <figure class="image-item col-6" data-groups='["data","world","catalog"]'>
-      <div class="card">
-        <div class="card-body">
-          <h4 class="card-title"><a href="https://mxnl.github.io/awesome_geodata_table/" target="_blank" >Awesome Geodata Table</a></h4>
-          <span class="badge badge-info">Data</span> <span class="badge badge-info">World</span> <span class="badge badge-info">Catalog</span>
-          <p>A searchable collection of geodatasets maintained by its community.</p>
-        </div>
-      </div>
-    </figure>  
-
-    <figure class="image-item col-6" data-groups='["data","world","catalog"]'>
-      <div class="card">
-        <div class="card-body">
-          <h4 class="card-title"><a href="https://www.statista.com/" target="_blank" >Statista </a></h4>
-          <span class="badge badge-info">Data</span> <span class="badge badge-info">World</span> <span class="badge badge-info">Catalog</span>
-          <p> Statista is a global data and business intelligence platform with an extensive collection of statistics, reports, and insights on over 80,000 topics from 22,500 sources in 170 industries.  </p>
-        </div>
-      </div>
-    </figure>    
-
-    <figure class="image-item col-6" data-groups='["data","portugal","catalog"]'>
-      <div class="card">
-        <div class="card-body">
-          <h4 class="card-title"><a href="https://cse.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_main" target="_blank" >Statistics Portugal (INE)</a></h4>
-          <span class="badge badge-info">Data</span> <span class="badge badge-info">Portugal</span> <span class="badge badge-info">Catalog</span>
-          <p>Official statistical information for Portugal</p>
-        </div>
-      </div>
-    </figure> 	  
-
     <figure class="image-item col-6" data-groups='["data","portugal","service"]'>
       <div class="card">
         <div class="card-body">
